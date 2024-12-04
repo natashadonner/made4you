@@ -17,8 +17,7 @@ git clone git@github.com:yourusername/yourprojectname.git
 ```
 
 #### Step 2: Set Up Your OpenAI API Key
-_If you already have an OpenAI API key, you may skip this step. If not, follow these instructions to obtain one:_
-
+- If you already have an OpenAI API key, you may skip this step. If not, follow these instructions to obtain one:
 - Visit OpenAI's website and sign up for an account if you do not already have one.
 - Once logged in, navigate to the API section and generate a new API key.
 - To ensure the security of your key, add it to your environment variables on your computer rather than directly embedding it in your code. This prevents accidental exposure of your key, especially if you plan to push your code to a public repository.
@@ -26,7 +25,6 @@ _If you already have an OpenAI API key, you may skip this step. If not, follow t
 #### Step 3: Set Up Environment Variable
 For detailed instructions on how to set an environment variable for your OpenAI API key, refer to this comprehensive guide
 [here](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
-
 
 
 #### Step 4: Open project
@@ -59,11 +57,8 @@ python made4you.py
 ```
 
 #### Step 8: You can now open the chatbot in your browser by visiting the URL that is displayed in the terminal.
-```bash
-```
 
 #### Step 9: Interact with your chatbot by asking questions or providing prompts. The chatbot will respond with information from the files you uploaded.
-
 
 ## Troubleshooting
 
