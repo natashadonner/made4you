@@ -49,9 +49,13 @@ pip install -r requirements.txt
 Great job! Now you are ready to run your chatbot locally.
 
 #### Step 7: Run the Chatbot
-To run the chatbot, first insert files in the files directory. For know it only works with pdf and docs. 
-Then execute the following command in your terminal:
+To run the chatbot, first insert files in the src/files directory. For now, it only works with pdf and docs. 
+Execute the following command in your terminal to create the embeddings files. 
 
+```bash
+python create_embeddings.py
+```
+Then run the chatbot with the following command:
 ```bash
 python made4you.py
 ```

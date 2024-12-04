@@ -100,6 +100,6 @@ for file_name in os.listdir(input_folder):
     df = pd.DataFrame(data, columns=["index", "text", "n_tokens", "embeddings"])
 
     # Save the cleaned and embedded data to CSV
-    df.to_csv(f"processed/processed_files.csv", index=False)
+    df.to_csv(f"processed/embedded_files.csv", index=False)
 
     count = count + 1
