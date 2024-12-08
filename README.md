@@ -53,7 +53,8 @@ To run the chatbot, first insert files in the src/files directory. For now, it o
 Execute the following command in your terminal to create the embeddings files. 
 
 ```bash
-python create_embeddings.py
+python divide_chunks.py
+python generate_embeddings.py
 ```
 Then run the chatbot with the following command:
 ```bash
